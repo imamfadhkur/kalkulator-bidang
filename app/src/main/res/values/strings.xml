@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Kalkulator Bidang</string>
+    <string name="title">judul item</string>
+    <string name="detail">detail item</string>
+</resources>

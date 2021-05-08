@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityDetail"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".ActivityDetail"
+            android:orientation="vertical"
+            android:id="@+id/activity_detail">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/title"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/title_detail"
+        android:layout_margin="16dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/image_detail"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        tools:src="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_margin="16dp"
+        android:id="@+id/detail_detail"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        tools:text="@string/detail"
+        android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
